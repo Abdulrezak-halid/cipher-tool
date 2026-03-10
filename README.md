@@ -6,40 +6,7 @@ Supports **Caesar**, **Vigenère**, **Atbash**, and **ROT13** ciphers, plus a **
 
 ---
 
-## 📁 Project Structure
-
-```
-cipher-tool/
-│
-├── main.py                     # Entry point (UI or CLI)
-│
-├── src/
-│   ├── __init__.py
-│   ├── cli.py                  # argparse CLI interface
-│   ├── ui.py                   # Interactive terminal menu UI
-│   ├── utils.py                # Shared helpers & ANSI colours
-│   │
-│   ├── ciphers/
-│   │   ├── __init__.py
-│   │   ├── caesar.py           # Caesar (shift) cipher
-│   │   ├── vigenere.py         # Vigenère polyalphabetic cipher
-│   │   ├── atbash.py           # Atbash mirror cipher
-│   │   └── rot13.py            # ROT13 (Caesar key=13)
-│   │
-│   └── attacks/
-│       ├── __init__.py
-│       └── brute_force.py      # Caesar brute-force attack
-│
-├── examples/
-│   ├── __init__.py
-│   └── examples.py             # Pre-built algorithm showcase
-│
-└── README.md
-```
-
----
-
-## ⚡ Installation
+## Installation
 
 **Prerequisites:** Python 3.10+ (no external dependencies).
 
@@ -52,7 +19,7 @@ No `pip install` needed — uses only the Python standard library.
 
 ---
 
-## 🚀 Two Ways to Use
+## Two Ways to Use
 
 ### 1. Interactive Terminal UI (recommended for learning)
 
@@ -66,8 +33,8 @@ You'll see a colourful menu:
 
 ```
    ╔═══════════════════════════════════════════════════════════╗
-   ║             🔐  CIPHER TOOL  v2.0  🔐                   ║
-   ║         Classical Cryptography Toolkit                   ║
+   ║             🔐  CIPHER TOOL  v2.0  🔐                     ║
+   ║          Classical Cryptography Toolkit                   ║
    ╚═══════════════════════════════════════════════════════════╝
 
   Choose an option:
@@ -77,7 +44,7 @@ You'll see a colourful menu:
     3)  Atbash Cipher
     4)  ROT13 Cipher
     5)  Caesar Brute-Force Attack
-    6)  📚  Algorithm Examples & Explanations
+    6)  Algorithm Examples & Explanations
     0)  Exit
 ```
 
@@ -100,7 +67,7 @@ python3 main.py --algo <algorithm> --mode <mode> --text "<text>" [--key <key>]
 
 ---
 
-## 📋 CLI Examples
+## CLI Examples
 
 ### Caesar Cipher
 
@@ -161,7 +128,7 @@ python3 main.py --algo caesar --mode encrypt --text "Hello, World! 123" --key 5
 
 ---
 
-## 📚 Algorithm Examples Showcase
+## Algorithm Examples Showcase
 
 Run the examples script to see all algorithms in action:
 
@@ -173,7 +140,7 @@ This prints a full demonstration of every cipher with multiple test cases — gr
 
 ---
 
-## 🧠 Algorithm Explanations
+## Algorithm Explanations
 
 ### Caesar Cipher
 
