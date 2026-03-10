@@ -225,6 +225,6 @@ python3 main.py --algo vigenere --mode encrypt --text "HELLO" --key 123
 
 ---
 
-## 📄 License
+## License
 
 Released for educational purposes. Free to use and modify for coursework and learning.
